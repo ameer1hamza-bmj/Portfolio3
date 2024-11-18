@@ -434,10 +434,11 @@ text-wrap: wrap;
 
     .para1 p {
         color: white;
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 100;
         text-align: center;
     }
+
 
     .contact {
         height: 6rem;
