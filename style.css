@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+    background: url(images/Background\ Pattern.png), linear-gradient(black, black), no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.navbar1 {
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 8.0rem;
+    position: relative;
+}
+
+.logo img {
+    width: 8.0rem;
+    position: absolute;
+    left: 8.0rem;
+}
+
+.headbtn {
+    height: 8.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn1,
+.btn2 {
+    padding: 1rem 2.5rem;
+    margin: 0rem 1rem;
+}
+
+.btn1 {
+    background-color: transparent;
+    border: 0.1rem solid white;
+    outline: none;
+    color: white;
+    border-radius: 1.2rem;
+    font-family: "Poppins", serif;
+    font-size: 1.319rem;
+}
+
+.btn2 {
+    background-color: white;
+    border: 0.1rem solid white;
+    outline: none;
+    color: black;
+    border-radius: 1.2rem;
+    font-family: "Poppins", serif;
+    font-size: 1.319rem;
+}
+
+.me {
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.me img {
+    width: 15rem;
+    border: 0.2rem solid white;
+    border-radius: 100%;
+}
+
+.heading {
+    height: 12rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.heading h1 {
+    color: white;
+    font-size: 6.342rem;
+    font-weight: bold;
+    display: block;
+}
+
+.heading p {
+    display: block;
+    font-size: 2.811rem;
+    color: white;
+    color: rgba(135, 135, 135, 1);
+}
+
+.para1 {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para1 p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.contact {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btncon {
+    padding: 1.3rem 4rem;
+    background-color: black;
+    color: white;
+    border: 0.1rem solid rgba(88, 88, 88, 1);
+    outline: none;
+    border-radius: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.About {
+    height: auto;
+}
+
+.about1 {
+    height: 20rem;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.about1 h1 {
+    color: white;
+    font-size: 6.342rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about1 p {
+    background: linear-gradient(to right, rgba(156, 131, 255, 1), rgba(255, 144, 81, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.4rem;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 1rem;
+}
+
+.para2 {
+    height: 20rem;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.para2 p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.about2 {
+    height: 22rem;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.about2 h1 {
+    color: white;
+    font-size: 6.342rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about2 p {
+    background: linear-gradient(to right, rgba(156, 131, 255, 1), rgba(255, 144, 81, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.4rem;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 0.5rem;
+
+}
+
+.skill {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.skill1 {
+    width: 25%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.skill1 img{
+    width: 10rem;
+    position: relative;
+    bottom: 1rem;
+   
+}
+.skill1 p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center; 
+}
+
+.skill2 {
+    width: 25%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.skill2 img{
+    width: 10rem;
+    position: relative;
+    bottom: 1rem;
+    
+}
+.skill2 p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center; 
+}
+
+.skill3 {
+    width: 25%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.skill3 img{
+    width: 12rem;
+    position: relative;
+    bottom: 1rem;
+}
+.skill3 p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center; 
+}
+
+.skill4 {
+    width: 25%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.skill4 img{
+    width: 8.5rem;
+    position: relative;
+    bottom: 1rem;
+}
+.skill4 p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center; 
+}
+.projects{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card1{
+    height:20rem;
+    width: 40rem;
+    margin: 10px 10px;
+    background-color: black;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 0.5rem;
+    transition: 1s ;
+  
+    transition: all 1s ease-in-out;
+}
+.card1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    filter: saturate(2);
+}
+.card1:hover{
+    filter: grayscale(1);
+}
+.footer{
+    height: 30rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icons{
+height: 5rem;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.lastfoot{
+    height: 10rem;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.icons a{
+    margin: 0 3rem;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+.lastfoot p{
+display: inline-block;
+color: white;
+text-align: center;
+font-size: 1.2rem;
+text-wrap: wrap;
+}
+.lastfoot p img{
+    display: inline-block;
+    width: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+    body {
+        background-color: black;
+        background: url(images/Background\ Pattern.png), linear-gradient(black, black), no-repeat;
+        background-size: 100vh;
+        height: 100vh;
+    }
+
+    .logo img {
+        width: 8.0rem;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .heading {
+        height: 10rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .headbtn {
+        height: 8.0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heading h1 {
+        color: white;
+        font-size: 4.342rem;
+        font-weight: bold;
+    }
+
+    .heading p {
+        display: block;
+        font-size: 2rem;
+        color: white;
+        color: rgba(135, 135, 135, 1);
+    }
+
+    .para1 {
+        height: 5rem;
+        align-items: flex-start;
+    }
+
+    .para1 p {
+        color: white;
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .contact {
+        height: 6rem;
+    }
+
+    .about1 {
+        height: 15rem;
+    }
+
+    .about1 h1 {
+        color: white;
+        font-size: 4.342rem;
+        font-weight: bold;
+    }
+
+    .about1 p {
+        font-size: 1.2rem;
+    }
+
+    .para2 {
+        align-items: center;
+        justify-content: center;
+        height: 15rem;
+    }
+
+    .para2 p {
+        color: white;
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .about2 {
+        height: 15rem;
+    }
+
+    .about2 h1 {
+        font-size: 4.342rem;
+    }
+    .skill{
+     flex-wrap: wrap;
+     flex-direction: column;
+    }
+    .skill1, .skill2, .skill3, .skill4{
+        width: 100%;
+    }
+    .skill1 img{
+        width: 12rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    .skill1 p{
+        color: white;
+        font-size: 2rem;
+        font-weight: 100;
+        text-align: center; 
+    }
+    .skill2 img{
+        width: 10rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    .skill2 p{
+        color: white;
+        font-size: 2rem;
+        font-weight: 100;
+        text-align: center; 
+    }
+    .skill3 img{
+        width: 12rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    .skill3 p{
+        color: white;
+        font-size: 2rem;
+        font-weight: 100;
+        text-align: center; 
+    }
+    .skill4 img{
+        width: 8.5rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    .skill4 p{
+        color: white;
+        font-size: 2rem;
+        font-weight: 100;
+        text-align: center; 
+    }
+    .lastfoot p{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        text-wrap: wrap;
+        }
+        .footer{
+            background-color: transparent;
+            height: 20rem;
+        }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {}
