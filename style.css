@@ -313,20 +313,20 @@ body {
     margin: 10px 10px;
     background-color: black;
     box-shadow: 0px 0px 5px white;
-    transition: all 0.6s linear;
+    border-radius: 0.5rem;
+
+    filter: saturate(2);
+    transition: all 1s linear;
 }
 .card1 img{
     height: 100%;
     width: 100%;
     border-radius: 0.5rem;
-     filter: saturate(2);
-    transition: all 1s linear;
-}
-.card1 img:hover{
-  filter: grayscale(1);
+
 }
 .card1:hover{
-    transform: scale(1.1)
+  transform: scale(1.1);
+  filter: grayscale(1);
 }
 .footer{
     height: 30rem;
@@ -542,13 +542,3 @@ text-wrap: wrap;
             height: 20rem;
         }
 }
-
-
-
-
-
-
-
-
-
-@media (min-width: 576px) and (max-width: 768px) {}
